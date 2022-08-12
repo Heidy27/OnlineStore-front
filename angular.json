@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -90,12 +91,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "852cd643-c3b0-40f9-833a-c8e290ffa687"
   }
 }

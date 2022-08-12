@@ -1,0 +1,54 @@
+/*About Page*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+#page-header.about-header{
+    background-image: url("#");
+}
+#about-head{
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+#about-head div{
+    width: 50%;
+}
+#about-head h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#about-head div p{
+    line-height: 20px;
+    margin-bottom: 30px;
+
+}
+#about-app h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    
+}
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 10px auto 0px auto;  /*to centre the video we made left and right margin as auto*/
+}
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
